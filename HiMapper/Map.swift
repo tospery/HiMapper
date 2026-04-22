@@ -111,7 +111,7 @@ public final class Map {
                     let components = key.components(separatedBy: delimiter)
                     for item in components {
                         object = JSON[item]
-                        if object != nil {
+                        if object != nil && ((object as? String) != "") && ((object as? Int) != 0)  {
                             break
                         }
                     }
