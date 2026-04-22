@@ -109,11 +109,26 @@ public final class Map {
                 var object = JSON[key]
                 if object == nil && key.contains(delimiter) {
                     let components = key.components(separatedBy: delimiter)
+                    var valueType = 0
                     for item in components {
                         object = JSON[item]
-                        if object != nil && ((object as? String) != "") && ((object as? Int) != 0)  {
+                        if object != nil {
+                            if let string = object as? String, string == "" {
+                                valueType = 1
+                                continue
+                            }
+                            if let int = object as? Int, int == 0 {
+                                valueType = 2
+                                continue
+                            }
+                            valueType = 0
                             break
                         }
+                    }
+                    if valueType == 1 {
+                        object = ""
+                    } else if valueType == 2 {
+                        object = 0
                     }
                 }
 				let isNSNull = object is NSNull
