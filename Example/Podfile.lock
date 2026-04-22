@@ -1,0 +1,16 @@
+PODS:
+  - HiMapper (0.1.0)
+
+DEPENDENCIES:
+  - HiMapper (from `../`)
+
+EXTERNAL SOURCES:
+  HiMapper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HiMapper: 4b268261650c851287839d38cbf79a1b4801153d
+
+PODFILE CHECKSUM: 5f6bae421cd4853f0a75261a13929a9f0d413102
+
+COCOAPODS: 1.16.2
