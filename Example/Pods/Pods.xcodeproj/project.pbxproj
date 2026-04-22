@@ -7,17 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C53ECA0D0266E400F0C901FCE27615F /* HiMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7C3306E1976D602C4FDF20A5913B01 /* HiMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1362C0C2BA4C977EE97CCDCB2AD3944F /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB499F29ED94ECC8312F0C9E35F4A8E /* IntegerOperators.swift */; };
+		157B1C2B051E9EF01D43BC99514F6791 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5ABB551C1FCF24646F556A9E8E643 /* EnumTransform.swift */; };
+		1E4E64AE5A5FFCD4C61BBDEC30CF36F8 /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92866DBC27A0CC112485BADA52FAAFA /* ImmutableMappable.swift */; };
 		2368EBD70B90CB986E50D7CA92F05975 /* Pods-HiMapper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D1EC51971B66B0834FDFE6DDD1324E /* Pods-HiMapper_Example-dummy.m */; };
-		2B60FBC253823EB1EB678BFA3CC9F549 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C440E34628D629EFEBB87CA8F5AA7222 /* ReplaceMe.swift */; };
-		5F9E64481109D9CE6028256547693491 /* HiMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 975E5A03C224CE4B7744B5152B19E836 /* HiMapper-dummy.m */; };
+		2AF6C6EB8ED39325A62EF47BFF66264B /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F4BC5AA903F51F5C82DC1C2E8C0CF /* DateTransform.swift */; };
+		2F3D8653AE30D2276EDFBA498A9B3B5A /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA350B2FADCD1892E153969E04E88745 /* Map.swift */; };
+		484FA52FA8B92263761DDC181BC1B4FD /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3D99314DEEEB22142AA9B1FB93172 /* TransformType.swift */; };
+		4D9AF2E23FF61D1F6928B67F9B1224F2 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AD08FF68E0FA10DB059AA6D8EB26FC /* DictionaryTransform.swift */; };
+		5B15C513C0C9AE7A805D54FF569AE6DF /* HiMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3B53141862DD679C49600E5468DA2BF /* HiMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FBD8BEF5591BA78EB1B0753921351AE /* HiMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38190E772F37FD26704BE51020A6B55C /* HiMapper-dummy.m */; };
+		6B852088CE924906BADC7738C86C88B4 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDB3322D6A3C2CB952F6FC633A57C /* Mapper.swift */; };
+		6D0FBAD298757B19E4A0706AC8642C6F /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D1E80C09DDCF97B89291E31682252A /* FromJSON.swift */; };
+		6F8CE2AAEFE469C771B91F82ED2EDB2F /* ObjectMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 47AD63BE652298B8BF4C657F2086321C /* ObjectMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FC8A4A6338B6F6C8E3C8EE09D266181 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39E01D6AD180673A43D1F36ADF6AE95 /* ISO8601DateTransform.swift */; };
+		7D80EF234D35179A4549B773E008E6F3 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA4EE9289CF772E1055100483D10E59 /* ToJSON.swift */; };
+		88441DCB643D9DA35FC7B41A53A79675 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD42C8442391D5F575D533396120C97 /* NSDecimalNumberTransform.swift */; };
+		922107E9C4C8A130766DB08CB3B630A5 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2946C5D2668F359D6B21A62E7FD9EB /* CustomDateFormatTransform.swift */; };
+		94F07EF3F0F3D18E1CE03882F2884AFD /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A082E7526C3CC12D56945C4844EEEF5 /* EnumOperators.swift */; };
+		9E65A5921CBA367F28C830C229F291DF /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C68295ED787D4D5E83F794C2D87C51 /* URLTransform.swift */; };
+		A1F7D8DC4462C2DC6295951067F789E7 /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD4FBE224489A9C693CB23FE0381A4 /* TransformOperators.swift */; };
+		A323591F06932EAE4032F26D5A68FDDD /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2BFB699D5098C77D8EDB02A65C347C /* HexColorTransform.swift */; };
 		A36C27BB8E066AD003DD10256A845A90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		AE28B6FC28DBB91F58A433A4BE677225 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D6E05A7F8526D66939B48B488129CE /* MapError.swift */; };
+		AE60CD88298D64BA55ECF7698010A6F5 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D341B90FEB6378B53C60E6B3AB9A02E9 /* DateFormatterTransform.swift */; };
+		B4BE060C8096CC1D3F6706DB3D084280 /* CodableTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D036387481A5978348FE4AA0DB4B440 /* CodableTransform.swift */; };
+		BA48600F796C6F0B459DA9B3CB2BF26C /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF42182E6842D1A69EC754472D840CA /* Operators.swift */; };
 		BC18880CAE7B385D6C767CEAD7BEEF89 /* Pods-HiMapper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8FCABB22FD1AA01F2934ACD21BFFF2 /* Pods-HiMapper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF9E7CF8365D3FE8F3E157B55A80E17C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		D01A79C9D8C24A8E77D5A8456FD0FC37 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7562E2E425CBAA9D40C40AFA536F171 /* Mappable.swift */; };
+		D4D12EB2EAD1B3F149C874ED0A86C58A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		D5FA6D2CF1ECA1389A782D26979CEBA8 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267CC431E20256A0511461B1A6634040 /* TransformOf.swift */; };
+		F803DC3CA85401D225D0A121449174F2 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7690802533CCBE5DC06B8C970CAA3A /* DataTransform.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C63937B54FE899464CC6C7EB6B0A88A7 /* PBXContainerItemProxy */ = {
+		25AC5288F978644CEBE78B72DF9B6464 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -27,41 +51,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017F4DA0EEC5CB663D413D112A1E74F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1F0F23C06BA98F3BEEEF63257C52FC5D /* HiMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HiMapper.release.xcconfig; sourceTree = "<group>"; };
+		1688C67AAFB29D524F62C774F8D024BE /* HiMapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HiMapper-Info.plist"; sourceTree = "<group>"; };
+		1801444F1929D742670A5DB21D14FE85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1D036387481A5978348FE4AA0DB4B440 /* CodableTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableTransform.swift; path = HiMapper/CodableTransform.swift; sourceTree = "<group>"; };
 		21D1EC51971B66B0834FDFE6DDD1324E /* Pods-HiMapper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HiMapper_Example-dummy.m"; sourceTree = "<group>"; };
-		254BE2C7C4CF41398F4874D1E30B12E6 /* HiMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HiMapper.debug.xcconfig; sourceTree = "<group>"; };
-		2B6F206AAD9354F30A384D88E24D80B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		32D79FEE5011A617CE748538645E8DAF /* HiMapper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HiMapper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		267CC431E20256A0511461B1A6634040 /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = HiMapper/TransformOf.swift; sourceTree = "<group>"; };
+		38190E772F37FD26704BE51020A6B55C /* HiMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HiMapper-dummy.m"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E2946C5D2668F359D6B21A62E7FD9EB /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = HiMapper/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		3EA4EE9289CF772E1055100483D10E59 /* ToJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToJSON.swift; path = HiMapper/ToJSON.swift; sourceTree = "<group>"; };
+		3F6F4BC5AA903F51F5C82DC1C2E8C0CF /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = HiMapper/DateTransform.swift; sourceTree = "<group>"; };
 		41A0460A00C8CBD0880B96C8AF1FB1BB /* Pods-HiMapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HiMapper_Example.modulemap"; sourceTree = "<group>"; };
-		4B6A5DCD2179EBFAE98BA505D37395A8 /* HiMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HiMapper-prefix.pch"; sourceTree = "<group>"; };
+		44C80B26C55D3E4B024A739A79D3A57B /* HiMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HiMapper.debug.xcconfig; sourceTree = "<group>"; };
+		47AD63BE652298B8BF4C657F2086321C /* ObjectMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjectMapper.h; path = HiMapper/ObjectMapper.h; sourceTree = "<group>"; };
+		4BD42C8442391D5F575D533396120C97 /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberTransform.swift; path = HiMapper/NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
+		4E8CDB3322D6A3C2CB952F6FC633A57C /* Mapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = HiMapper/Mapper.swift; sourceTree = "<group>"; };
 		55CA7390AC2997D0F87136C09C7E1C09 /* HiMapper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HiMapper; path = HiMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CD4FBE224489A9C693CB23FE0381A4 /* TransformOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOperators.swift; path = HiMapper/TransformOperators.swift; sourceTree = "<group>"; };
+		56D1E80C09DDCF97B89291E31682252A /* FromJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FromJSON.swift; path = HiMapper/FromJSON.swift; sourceTree = "<group>"; };
+		5A082E7526C3CC12D56945C4844EEEF5 /* EnumOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumOperators.swift; path = HiMapper/EnumOperators.swift; sourceTree = "<group>"; };
+		6FF42182E6842D1A69EC754472D840CA /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = HiMapper/Operators.swift; sourceTree = "<group>"; };
+		75449C3E9E86DD71CEF1C74A7F4A66B3 /* HiMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HiMapper-prefix.pch"; sourceTree = "<group>"; };
+		7BFF6FE9A6038816E2DEE3CD43591B6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8B2BFB699D5098C77D8EDB02A65C347C /* HexColorTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColorTransform.swift; path = HiMapper/HexColorTransform.swift; sourceTree = "<group>"; };
+		8B7690802533CCBE5DC06B8C970CAA3A /* DataTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataTransform.swift; path = HiMapper/DataTransform.swift; sourceTree = "<group>"; };
 		8B8FCABB22FD1AA01F2934ACD21BFFF2 /* Pods-HiMapper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HiMapper_Example-umbrella.h"; sourceTree = "<group>"; };
 		8CF7CDC8D42F00B4423046B509BA456D /* Pods-HiMapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiMapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8D10A91633C58927EAA62A871BB11933 /* Pods-HiMapper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiMapper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8E4A406B5C3C2071FC06772F024E7216 /* HiMapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HiMapper-Info.plist"; sourceTree = "<group>"; };
-		975E5A03C224CE4B7744B5152B19E836 /* HiMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HiMapper-dummy.m"; sourceTree = "<group>"; };
+		8EFFDA3D65313B7513494020E202983D /* HiMapper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HiMapper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A961F6FF2457C2CDA158605F2B4E9FE0 /* HiMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HiMapper.modulemap; sourceTree = "<group>"; };
+		A0AD08FF68E0FA10DB059AA6D8EB26FC /* DictionaryTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryTransform.swift; path = HiMapper/DictionaryTransform.swift; sourceTree = "<group>"; };
+		A7562E2E425CBAA9D40C40AFA536F171 /* Mappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mappable.swift; path = HiMapper/Mappable.swift; sourceTree = "<group>"; };
 		AF2490334084BF92196CB17FC451339B /* Pods-HiMapper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiMapper_Example-Info.plist"; sourceTree = "<group>"; };
+		B3B53141862DD679C49600E5468DA2BF /* HiMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HiMapper-umbrella.h"; sourceTree = "<group>"; };
 		B8804CDF5F70F0EF1F50E854CE359234 /* Pods-HiMapper_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HiMapper_Example"; path = Pods_HiMapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF788AAFB4D271A6D10F24C01EDBE6B /* Pods-HiMapper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HiMapper_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C440E34628D629EFEBB87CA8F5AA7222 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HiMapper/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C7BCDCFCF7D2D6AE64E772583DF7B644 /* HiMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HiMapper.modulemap; sourceTree = "<group>"; };
+		C92866DBC27A0CC112485BADA52FAAFA /* ImmutableMappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImmutableMappable.swift; path = HiMapper/ImmutableMappable.swift; sourceTree = "<group>"; };
 		D08106C1AF047D9C48F8E0964D3CE26F /* Pods-HiMapper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HiMapper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D341B90FEB6378B53C60E6B3AB9A02E9 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterTransform.swift; path = HiMapper/DateFormatterTransform.swift; sourceTree = "<group>"; };
 		DA700C4C6E28DEB05AC84A2A54E425B5 /* Pods-HiMapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiMapper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DB7C3306E1976D602C4FDF20A5913B01 /* HiMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HiMapper-umbrella.h"; sourceTree = "<group>"; };
+		DCC3D99314DEEEB22142AA9B1FB93172 /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = HiMapper/TransformType.swift; sourceTree = "<group>"; };
+		EA350B2FADCD1892E153969E04E88745 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = HiMapper/Map.swift; sourceTree = "<group>"; };
+		ECB499F29ED94ECC8312F0C9E35F4A8E /* IntegerOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntegerOperators.swift; path = HiMapper/IntegerOperators.swift; sourceTree = "<group>"; };
+		F2D5ABB551C1FCF24646F556A9E8E643 /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = HiMapper/EnumTransform.swift; sourceTree = "<group>"; };
+		F39E01D6AD180673A43D1F36ADF6AE95 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = HiMapper/ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		F7D6E05A7F8526D66939B48B488129CE /* MapError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapError.swift; path = HiMapper/MapError.swift; sourceTree = "<group>"; };
+		F9C68295ED787D4D5E83F794C2D87C51 /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = HiMapper/URLTransform.swift; sourceTree = "<group>"; };
+		FB6EADB3E0E565DA921E3536FF637FF5 /* HiMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HiMapper.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		25317BDE91122C5DFE0043D2F1A6C940 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF9E7CF8365D3FE8F3E157B55A80E17C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		30FBC2B9E53CD02C2CB2C14092826106 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -70,9 +110,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7326739D0236430F46B54027842999DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D12EB2EAD1B3F149C874ED0A86C58A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1919ABA087D3C066B6A5E3BB4BC55724 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7BCDCFCF7D2D6AE64E772583DF7B644 /* HiMapper.modulemap */,
+				38190E772F37FD26704BE51020A6B55C /* HiMapper-dummy.m */,
+				1688C67AAFB29D524F62C774F8D024BE /* HiMapper-Info.plist */,
+				75449C3E9E86DD71CEF1C74A7F4A66B3 /* HiMapper-prefix.pch */,
+				B3B53141862DD679C49600E5468DA2BF /* HiMapper-umbrella.h */,
+				44C80B26C55D3E4B024A739A79D3A57B /* HiMapper.debug.xcconfig */,
+				FB6EADB3E0E565DA921E3536FF637FF5 /* HiMapper.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HiMapper";
+			sourceTree = "<group>";
+		};
 		3080C47A524BFB4C62FEE5B02C494089 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,25 +144,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		63A83C01EF10BA8C98CAB147952C5F74 /* Pod */ = {
+		43680BA5BD0B1E367FE6B72CB78F5E03 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				32D79FEE5011A617CE748538645E8DAF /* HiMapper.podspec */,
-				017F4DA0EEC5CB663D413D112A1E74F4 /* LICENSE */,
-				2B6F206AAD9354F30A384D88E24D80B7 /* README.md */,
+				E13C2C0DC0B9E9E9FD7B7F1F866E7BB6 /* HiMapper */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		88A6FBECAA0E365FF590B18CD2F99FBA /* HiMapper */ = {
-			isa = PBXGroup;
-			children = (
-				C440E34628D629EFEBB87CA8F5AA7222 /* ReplaceMe.swift */,
-				63A83C01EF10BA8C98CAB147952C5F74 /* Pod */,
-				A823453D80C325A4BBE12EB989383849 /* Support Files */,
-			);
-			name = HiMapper;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		899CFC29F7243DDC3E1069B22429BEE8 /* Pods-HiMapper_Example */ = {
@@ -119,14 +169,6 @@
 			path = "Target Support Files/Pods-HiMapper_Example";
 			sourceTree = "<group>";
 		};
-		9A2DFA2021C3D4E8BCFC9554D2994BD9 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				88A6FBECAA0E365FF590B18CD2F99FBA /* HiMapper */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		9D26423B83D16157BFB339B618FFB09E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,26 +178,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A823453D80C325A4BBE12EB989383849 /* Support Files */ = {
+		A3375445420A1F041172ABD86B8243A1 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A961F6FF2457C2CDA158605F2B4E9FE0 /* HiMapper.modulemap */,
-				975E5A03C224CE4B7744B5152B19E836 /* HiMapper-dummy.m */,
-				8E4A406B5C3C2071FC06772F024E7216 /* HiMapper-Info.plist */,
-				4B6A5DCD2179EBFAE98BA505D37395A8 /* HiMapper-prefix.pch */,
-				DB7C3306E1976D602C4FDF20A5913B01 /* HiMapper-umbrella.h */,
-				254BE2C7C4CF41398F4874D1E30B12E6 /* HiMapper.debug.xcconfig */,
-				1F0F23C06BA98F3BEEEF63257C52FC5D /* HiMapper.release.xcconfig */,
+				8EFFDA3D65313B7513494020E202983D /* HiMapper.podspec */,
+				7BFF6FE9A6038816E2DEE3CD43591B6D /* LICENSE */,
+				1801444F1929D742670A5DB21D14FE85 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HiMapper";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9A2DFA2021C3D4E8BCFC9554D2994BD9 /* Development Pods */,
+				43680BA5BD0B1E367FE6B72CB78F5E03 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				9D26423B83D16157BFB339B618FFB09E /* Products */,
 				3080C47A524BFB4C62FEE5B02C494089 /* Targets Support Files */,
@@ -168,6 +205,41 @@
 				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E13C2C0DC0B9E9E9FD7B7F1F866E7BB6 /* HiMapper */ = {
+			isa = PBXGroup;
+			children = (
+				1D036387481A5978348FE4AA0DB4B440 /* CodableTransform.swift */,
+				3E2946C5D2668F359D6B21A62E7FD9EB /* CustomDateFormatTransform.swift */,
+				8B7690802533CCBE5DC06B8C970CAA3A /* DataTransform.swift */,
+				D341B90FEB6378B53C60E6B3AB9A02E9 /* DateFormatterTransform.swift */,
+				3F6F4BC5AA903F51F5C82DC1C2E8C0CF /* DateTransform.swift */,
+				A0AD08FF68E0FA10DB059AA6D8EB26FC /* DictionaryTransform.swift */,
+				5A082E7526C3CC12D56945C4844EEEF5 /* EnumOperators.swift */,
+				F2D5ABB551C1FCF24646F556A9E8E643 /* EnumTransform.swift */,
+				56D1E80C09DDCF97B89291E31682252A /* FromJSON.swift */,
+				8B2BFB699D5098C77D8EDB02A65C347C /* HexColorTransform.swift */,
+				C92866DBC27A0CC112485BADA52FAAFA /* ImmutableMappable.swift */,
+				ECB499F29ED94ECC8312F0C9E35F4A8E /* IntegerOperators.swift */,
+				F39E01D6AD180673A43D1F36ADF6AE95 /* ISO8601DateTransform.swift */,
+				EA350B2FADCD1892E153969E04E88745 /* Map.swift */,
+				F7D6E05A7F8526D66939B48B488129CE /* MapError.swift */,
+				A7562E2E425CBAA9D40C40AFA536F171 /* Mappable.swift */,
+				4E8CDB3322D6A3C2CB952F6FC633A57C /* Mapper.swift */,
+				4BD42C8442391D5F575D533396120C97 /* NSDecimalNumberTransform.swift */,
+				47AD63BE652298B8BF4C657F2086321C /* ObjectMapper.h */,
+				6FF42182E6842D1A69EC754472D840CA /* Operators.swift */,
+				3EA4EE9289CF772E1055100483D10E59 /* ToJSON.swift */,
+				267CC431E20256A0511461B1A6634040 /* TransformOf.swift */,
+				55CD4FBE224489A9C693CB23FE0381A4 /* TransformOperators.swift */,
+				DCC3D99314DEEEB22142AA9B1FB93172 /* TransformType.swift */,
+				F9C68295ED787D4D5E83F794C2D87C51 /* URLTransform.swift */,
+				A3375445420A1F041172ABD86B8243A1 /* Pod */,
+				1919ABA087D3C066B6A5E3BB4BC55724 /* Support Files */,
+			);
+			name = HiMapper;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
@@ -189,11 +261,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCFBDF47AF0173E29114D696C9C1E9AF /* Headers */ = {
+		E2A60743F173E597D0A910E83E72A44D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C53ECA0D0266E400F0C901FCE27615F /* HiMapper-umbrella.h in Headers */,
+				5B15C513C0C9AE7A805D54FF569AE6DF /* HiMapper-umbrella.h in Headers */,
+				6F8CE2AAEFE469C771B91F82ED2EDB2F /* ObjectMapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +285,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7702ADA8A017D3E57AEF0395A94DA660 /* PBXTargetDependency */,
+				99EB0B053ACDAE5D61FDB40C31B060D5 /* PBXTargetDependency */,
 			);
 			name = "Pods-HiMapper_Example";
 			productName = Pods_HiMapper_Example;
@@ -221,12 +294,12 @@
 		};
 		FEBF7BE592C551F77160C1E1C9692703 /* HiMapper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D07D2478C32EFF576213C85C1704CF37 /* Build configuration list for PBXNativeTarget "HiMapper" */;
+			buildConfigurationList = 6CA39D7EC65A9171EB246519249BAD8E /* Build configuration list for PBXNativeTarget "HiMapper" */;
 			buildPhases = (
-				DCFBDF47AF0173E29114D696C9C1E9AF /* Headers */,
-				7767B883C08573454DA03676AE5DE1CF /* Sources */,
-				25317BDE91122C5DFE0043D2F1A6C940 /* Frameworks */,
-				E8D95656F275A5867EC399AA4A484B7B /* Resources */,
+				E2A60743F173E597D0A910E83E72A44D /* Headers */,
+				CDFC99427B05F9C3379E8E508DAD340E /* Sources */,
+				7326739D0236430F46B54027842999DC /* Frameworks */,
+				375F91402B6A9AB45333FE582314CC05 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +341,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5A77C379ECA72763001CAB45C33FFB5E /* Resources */ = {
+		375F91402B6A9AB45333FE582314CC05 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8D95656F275A5867EC399AA4A484B7B /* Resources */ = {
+		5A77C379ECA72763001CAB45C33FFB5E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,12 +358,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7767B883C08573454DA03676AE5DE1CF /* Sources */ = {
+		CDFC99427B05F9C3379E8E508DAD340E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F9E64481109D9CE6028256547693491 /* HiMapper-dummy.m in Sources */,
-				2B60FBC253823EB1EB678BFA3CC9F549 /* ReplaceMe.swift in Sources */,
+				B4BE060C8096CC1D3F6706DB3D084280 /* CodableTransform.swift in Sources */,
+				922107E9C4C8A130766DB08CB3B630A5 /* CustomDateFormatTransform.swift in Sources */,
+				F803DC3CA85401D225D0A121449174F2 /* DataTransform.swift in Sources */,
+				AE60CD88298D64BA55ECF7698010A6F5 /* DateFormatterTransform.swift in Sources */,
+				2AF6C6EB8ED39325A62EF47BFF66264B /* DateTransform.swift in Sources */,
+				4D9AF2E23FF61D1F6928B67F9B1224F2 /* DictionaryTransform.swift in Sources */,
+				94F07EF3F0F3D18E1CE03882F2884AFD /* EnumOperators.swift in Sources */,
+				157B1C2B051E9EF01D43BC99514F6791 /* EnumTransform.swift in Sources */,
+				6D0FBAD298757B19E4A0706AC8642C6F /* FromJSON.swift in Sources */,
+				A323591F06932EAE4032F26D5A68FDDD /* HexColorTransform.swift in Sources */,
+				5FBD8BEF5591BA78EB1B0753921351AE /* HiMapper-dummy.m in Sources */,
+				1E4E64AE5A5FFCD4C61BBDEC30CF36F8 /* ImmutableMappable.swift in Sources */,
+				1362C0C2BA4C977EE97CCDCB2AD3944F /* IntegerOperators.swift in Sources */,
+				6FC8A4A6338B6F6C8E3C8EE09D266181 /* ISO8601DateTransform.swift in Sources */,
+				2F3D8653AE30D2276EDFBA498A9B3B5A /* Map.swift in Sources */,
+				AE28B6FC28DBB91F58A433A4BE677225 /* MapError.swift in Sources */,
+				D01A79C9D8C24A8E77D5A8456FD0FC37 /* Mappable.swift in Sources */,
+				6B852088CE924906BADC7738C86C88B4 /* Mapper.swift in Sources */,
+				88441DCB643D9DA35FC7B41A53A79675 /* NSDecimalNumberTransform.swift in Sources */,
+				BA48600F796C6F0B459DA9B3CB2BF26C /* Operators.swift in Sources */,
+				7D80EF234D35179A4549B773E008E6F3 /* ToJSON.swift in Sources */,
+				D5FA6D2CF1ECA1389A782D26979CEBA8 /* TransformOf.swift in Sources */,
+				A1F7D8DC4462C2DC6295951067F789E7 /* TransformOperators.swift in Sources */,
+				484FA52FA8B92263761DDC181BC1B4FD /* TransformType.swift in Sources */,
+				9E65A5921CBA367F28C830C229F291DF /* URLTransform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,11 +401,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7702ADA8A017D3E57AEF0395A94DA660 /* PBXTargetDependency */ = {
+		99EB0B053ACDAE5D61FDB40C31B060D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HiMapper;
 			target = FEBF7BE592C551F77160C1E1C9692703 /* HiMapper */;
-			targetProxy = C63937B54FE899464CC6C7EB6B0A88A7 /* PBXContainerItemProxy */;
+			targetProxy = 25AC5288F978644CEBE78B72DF9B6464 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,6 +508,43 @@
 			};
 			name = Release;
 		};
+		312BF2AECD7456A041BD4C54B13B7157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6EADB3E0E565DA921E3536FF637FF5 /* HiMapper.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/HiMapper/HiMapper-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/HiMapper/HiMapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HiMapper/HiMapper.modulemap";
+				PRODUCT_MODULE_NAME = HiMapper;
+				PRODUCT_NAME = HiMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		83CFB563AB4700F777457C25BADC6C4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA700C4C6E28DEB05AC84A2A54E425B5 /* Pods-HiMapper_Example.release.xcconfig */;
@@ -449,9 +582,9 @@
 			};
 			name = Release;
 		};
-		963A3EEEE3E9500BE4029B029DF332BF /* Debug */ = {
+		DCD78897CBE71631C742F330DDA0577E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 254BE2C7C4CF41398F4874D1E30B12E6 /* HiMapper.debug.xcconfig */;
+			baseConfigurationReference = 44C80B26C55D3E4B024A739A79D3A57B /* HiMapper.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -478,49 +611,12 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		E1F8A384F982A3D13C3A26EE3B6D8537 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F0F23C06BA98F3BEEEF63257C52FC5D /* HiMapper.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/HiMapper/HiMapper-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/HiMapper/HiMapper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HiMapper/HiMapper.modulemap";
-				PRODUCT_MODULE_NAME = HiMapper;
-				PRODUCT_NAME = HiMapper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -609,11 +705,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D07D2478C32EFF576213C85C1704CF37 /* Build configuration list for PBXNativeTarget "HiMapper" */ = {
+		6CA39D7EC65A9171EB246519249BAD8E /* Build configuration list for PBXNativeTarget "HiMapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				963A3EEEE3E9500BE4029B029DF332BF /* Debug */,
-				E1F8A384F982A3D13C3A26EE3B6D8537 /* Release */,
+				DCD78897CBE71631C742F330DDA0577E /* Debug */,
+				312BF2AECD7456A041BD4C54B13B7157 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

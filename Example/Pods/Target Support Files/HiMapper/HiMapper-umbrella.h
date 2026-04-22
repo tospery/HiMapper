@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ObjectMapper.h"
 
 FOUNDATION_EXPORT double HiMapperVersionNumber;
 FOUNDATION_EXPORT const unsigned char HiMapperVersionString[];

@@ -1,5 +1,5 @@
 PODS:
-  - HiMapper (0.1.0)
+  - HiMapper (1.0.0)
 
 DEPENDENCIES:
   - HiMapper (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HiMapper: 4b268261650c851287839d38cbf79a1b4801153d
+  HiMapper: 3c170ea3df0e8f05c9cb4901ae72a7ded128509a
 
 PODFILE CHECKSUM: 5f6bae421cd4853f0a75261a13929a9f0d413102
 

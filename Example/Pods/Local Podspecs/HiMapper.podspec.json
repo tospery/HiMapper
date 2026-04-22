@@ -1,22 +1,26 @@
 {
   "name": "HiMapper",
-  "version": "0.1.0",
-  "summary": "A short description of HiMapper.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.0",
+  "summary": "JSON Object mapping.",
+  "description": "JSON Object mapping written in Swift.",
   "homepage": "https://github.com/tospery/HiMapper",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "tospery": "tospery@gmail.com"
+    "YangJianxiang": "tospery@gmail.com"
   },
   "source": {
     "git": "https://github.com/tospery/HiMapper.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
+  "requires_arc": true,
+  "swift_versions": "5.3",
   "platforms": {
-    "ios": "10.0"
+    "ios": "16.0"
   },
-  "source_files": "HiMapper/Classes/**/*"
+  "frameworks": "Foundation",
+  "source_files": "HiMapper/**/*",
+  "swift_version": "5.3"
 }
