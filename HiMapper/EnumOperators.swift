@@ -1,6 +1,6 @@
 //
 //  EnumOperators.swift
-//  ObjectMapper
+//  HiMapper
 //
 //  Created by Tristan Himmelman on 2016-09-26.
 //

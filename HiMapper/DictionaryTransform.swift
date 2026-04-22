@@ -1,6 +1,6 @@
 //
 //  DictionaryTransform.swift
-//  ObjectMapper
+//  HiMapper
 //
 //  Created by Milen Halachev on 7/20/16.
 //

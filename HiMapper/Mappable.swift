@@ -1,6 +1,6 @@
 //
 //  Mappable.swift
-//  ObjectMapper
+//  HiMapper
 //
 //  Created by Scott Hoyt on 10/25/15.
 //

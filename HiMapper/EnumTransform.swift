@@ -1,6 +1,6 @@
 //
 //  EnumTransform.swift
-//  ObjectMapper
+//  HiMapper
 //
 //  Created by Kaan Dedeoglu on 3/20/15.
 //

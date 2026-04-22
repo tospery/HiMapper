@@ -1,6 +1,6 @@
 //
 //  DateFormatterTransform.swift
-//  ObjectMapper
+//  HiMapper
 //
 //  Created by Tristan Himmelman on 2015-03-09.
 //

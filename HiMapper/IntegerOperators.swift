@@ -1,6 +1,6 @@
 //
 //  IntegerOperators.swift
-//  ObjectMapper
+//  HiMapper
 //
 //  Created by Suyeol Jeon on 17/02/2017.
 //

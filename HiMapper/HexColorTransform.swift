@@ -1,6 +1,6 @@
 //
 //  HexColorTransform.swift
-//  ObjectMapper
+//  HiMapper
 //
 //  Created by Vitaliy Kuzmenko on 10/10/16.
 //

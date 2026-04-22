@@ -1,6 +1,6 @@
 //
 //  Map.swift
-//  ObjectMapper
+//  HiMapper
 //
 //  Created by Tristan Himmelman on 2015-10-09.
 //

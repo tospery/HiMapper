@@ -1,6 +1,6 @@
 //
 //  TransformOf.swift
-//  ObjectMapper
+//  HiMapper
 //
 //  Created by Tristan Himmelman on 8/22/16.
 //

@@ -1,6 +1,6 @@
 //
 //  CodableTransform.swift
-//  ObjectMapper
+//  HiMapper
 //
 //  Created by Jari Kalinainen on 10/10/2018.
 //

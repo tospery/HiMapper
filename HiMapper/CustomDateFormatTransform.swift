@@ -1,6 +1,6 @@
 //
 //  CustomDateFormatTransform.swift
-//  ObjectMapper
+//  HiMapper
 //
 //  Created by Dan McCracken on 3/8/15.
 //

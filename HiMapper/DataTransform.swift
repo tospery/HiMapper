@@ -1,6 +1,6 @@
 //
 //  DataTransform.swift
-//  ObjectMapper
+//  HiMapper
 //
 //  Created by Yagrushkin, Evgeny on 8/30/16.
 //

@@ -1,6 +1,6 @@
 //
-//  ObjectMapper.h
-//  ObjectMapper
+//  HiMapper.h
+//  HiMapper
 //
 //  Created by Tristan Himmelman on 2014-10-16.
 //
@@ -29,12 +29,12 @@
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for ObjectMapper.
+//! Project version number for HiMapper.
 FOUNDATION_EXPORT double ObjectMapperVersionNumber;
 
-//! Project version string for ObjectMapper.
+//! Project version string for HiMapper.
 FOUNDATION_EXPORT const unsigned char ObjectMapperVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <ObjectMapper/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <HiMapper/PublicHeader.h>
 
 
