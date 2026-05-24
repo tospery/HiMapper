@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HiMapper'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'JSON Object mapping.'
   s.description      = <<-DESC
 						JSON Object mapping written in Swift.
